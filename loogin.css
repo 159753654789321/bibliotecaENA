@@ -1,0 +1,64 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    background: linear-gradient(#30142b, #a12727);
+    display: flex; /* Habilita flexbox para centrar el formulario */
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    height: 100vh; /* Altura completa de la ventana de visualización */
+    margin: 0; /* Elimina los márgenes por defecto */
+}
+
+/* Estilos del formulario */
+form {
+    background-color: #30142b; /* Fondo blanco para el formulario */
+    padding: 20px; /* Espaciado interno alrededor del contenido del formulario */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor del formulario */
+    width: 300px; /* Ancho fijo para el formulario */
+    color: #fff;
+}
+
+/* Estilos para los encabezados dentro del formulario */
+h1 {
+    color: #fff; /* Color oscuro para el texto del encabezado */
+    font-size: 24px; /* Tamaño de fuente grande para el encabezado */
+    text-align: center; /* Centra el texto del encabezado */
+}
+
+/* Estilos para los párrafos dentro del formulario */
+p {
+    margin: 10px 0; /* Margen vertical para separar los elementos */
+}
+
+/* Estilos para las entradas de texto y contraseña */
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Ancho total menos el padding */
+    padding: 10px; /* Espaciado interno para hacer los input más grandes */
+    margin-top: 5px; /* Espacio superior para separar del texto */
+    border: 1px solid #ccc; /* Borde sutil */
+    border-radius: 4px; /* Bordes ligeramente redondeados */
+}
+
+/* Estilo para el botón de enviar */
+input[type="submit"] {
+    width: 100%; /* El botón ocupa todo el ancho del formulario */
+    padding: 10px; /* Hace el botón más alto */
+    background-color: #F39C12; /* Color de fondo azul */
+    color: white; /* Texto del botón en blanco */
+    border: none; /* Sin bordes */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor tipo mano al pasar sobre el botón */
+    margin-top: 10px; /* Margen superior para separarlo de los inputs */
+}
+
+/* Hover para el botón de enviar para cambiar su apariencia al pasar el mouse */
+input[type="submit"]:hover {
+    background-color: #E67E22; /* Color más oscuro al pasar el mouse */
+}
+
+/* Estilos para animaciones con animate.css */
+.animate__animated.animate__backInLeft {
+    animation-duration: 1s; /* Duración de la animación */
+}

@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('bi.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+  
+  .barra-lateral {
+      background-color: #844F13;
+      color: #fff;
+      width: 250px;
+      height: 100vh;
+      padding-top: 20px;
+  }
+  
+  .logo {
+      text-align: center;
+      margin-bottom: 20px;
+  }
+  
+  .logo img {
+      width: 80px;
+  }
+  
+  .navegacion ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .navegacion ul li {
+      padding: 10px 20px;
+  }
+  
+  .navegacion ul li a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+  }
+  
+  .navegacion ul li:hover {
+      background-color: #444;
+  }
+  
+  .contenido {
+      padding: 20px;
+  }
+  
